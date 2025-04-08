@@ -18,7 +18,12 @@ let package = Package(
     targets: [
         .target(
             name: "ViewModelOwners",
-            path: "Sources"
+            path: "Sources/Core",
+            exclude: [
+                "../Info.plist",
+                "../Info-tvOS.plist",
+                "../ViewModelOwners.h"
+            ]
         ),
     ]
 )
