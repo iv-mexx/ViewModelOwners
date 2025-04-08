@@ -54,6 +54,19 @@ class MyViewController: UIViewController, NonReusableViewModelOwner {
 ## Installation
 
 ### Dependency Managers
+
+
+<details>
+<summary><strong>Swift Package Manager</strong></summary>
+ Add `ViewModelOwners"` to the dependencies value of your Package.swift.
+
+ ```swift
+ dependencies: [
+     .package(url: "https://github.com/krzysztofzablocki/ViewModelOwners.git", .upToNextMajor(from: "1.0.0"))
+ ]
+ ```
+</details>
+
 <details>
   <summary><strong>CocoaPods</strong></summary>
 
